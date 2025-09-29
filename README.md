@@ -56,7 +56,7 @@
 - Express.js básico
 - Rutas y controladores
 - Middlewares
-- [PDF](./Clase-11-Node.js/readme.pdf)
+- [PDF](./Clase-11-Node.js/README.pdf)
 
 ---
 
@@ -64,7 +64,7 @@
 - Modularización avanzada
 - Uso de routers
 - Práctica con endpoints
-- [PDF](./Clase-12-Node.js/readme.pdf)
+- [PDF](./Clase-12-Node.js/README.pdf)
 
 ---
 
@@ -72,7 +72,7 @@
 - Mongoose y MongoDB
 - Modelos y esquemas
 - Conexión con base de datos
-- [PDF](./Clase-13-Node.js/readme.pdf)
+- [PDF](./Clase-13-Node.js/README.pdf)
 
 ---
 
@@ -81,7 +81,7 @@
 - Motor de vistas
 - Renderizado dinámico
 - Middlewares personalizados
-- [PDF](./Clase-14-Node.js/readme.pdf)
+- [PDF](./Clase-14-Node.js/README.pdf)
 
 ---
 
@@ -89,7 +89,7 @@
 - Modularización profesional
 - Routers y middlewares avanzados
 - Listas y objetos en vistas
-- [PDF](./Clase-15-Node.js/readme.pdf)
+- [PDF](./Clase-15-Node.js/README.pdf)
 
 ---
 
