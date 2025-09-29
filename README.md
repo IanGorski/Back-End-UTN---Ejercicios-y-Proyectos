@@ -2,39 +2,48 @@
 
 ## Índice de Clases
 
-### Clases 1 a 15
 
-* **Clase 1 - JavaScript básico**
-  - Variables, tipos de datos, operadores
-  - Estructuras de control
-  - [PDF](./Clase_1_JS/readme.pdf)
+## [Clase 1 - JavaScript básico]
+- Variables, tipos de datos, operadores
+- Estructuras de control
+- [PDF](./Clase_1_JS/readme.pdf)
 
-* **Clase 2 - Introducción a ReactJS**
-  - Componentes, props y estado
-  - Renderizado condicional
-  - [PDF](./Clase-2-ReactJS/readme.pdf)
+---
 
-* **Clase 3 - TypeScript básico**
-  - Tipos, interfaces y funciones
-  - Configuración de proyecto
-  - [PDF](./Clase-3-ts/readme.pdf)
+## [Clase 2 - Introducción a ReactJS]
+- Componentes, props y estado
+- Renderizado condicional
+- [PDF](./Clase-2-ReactJS/readme.pdf)
 
-* **Clase 4 - TypeScript avanzado**
-  - POO en TypeScript
-  - Tipos avanzados y módulos
-  - [PDF](./Clase-4-Typescript/readme.pdf)
+---
 
-* **Clase 5 - Ejercicios de TypeScript**
-  - Práctica de algoritmos y lógica
-  - Ejercicios resueltos
-  - [PDF](./Ejercicios-Typescript/readme.pdf)
+## [Clase 3 - TypeScript básico]
+- Tipos, interfaces y funciones
+- Configuración de proyecto
+- [PDF](./Clase-3-ts/readme.pdf)
 
-* **Clase 7 - MySQL**
-  - Introducción a bases de datos relacionales
-  - Creación de tablas y consultas básicas
-  - [PDF](./Clase-7-MYSQL/readme.pdf)
+---
 
-## [Clase 10 - Node.js](./Clase-10-Node.js/README.md)
+## [Clase 4 - TypeScript avanzado]
+- POO en TypeScript
+- Tipos avanzados y módulos
+- [PDF](./Clase-4-Typescript/readme.pdf)
+
+---
+
+## [Clase 5 - Ejercicios de TypeScript]
+- Práctica de algoritmos y lógica
+- Ejercicios resueltos
+- [PDF](./Ejercicios-Typescript/readme.pdf)
+
+---
+
+## [Clase 7 - MySQL]
+- Introducción a bases de datos relacionales
+- Creación de tablas y consultas básicas
+- [PDF](./Clase-7-MYSQL/readme.pdf)
+
+## [Clase 10 - Node.js]
 - Introducción a Node.js
 - Programación asíncrona
 - Uso de módulos
@@ -43,7 +52,7 @@
 
 ---
 
-## [Clase 11 - Node.js](./Clase-11-Node.js/README.md)
+## [Clase 11 - Node.js]
 - Express.js básico
 - Rutas y controladores
 - Middlewares
@@ -51,7 +60,7 @@
 
 ---
 
-## [Clase 12 - Node.js](./Clase-12-Node.js/README.md)
+## [Clase 12 - Node.js]
 - Modularización avanzada
 - Uso de routers
 - Práctica con endpoints
@@ -59,7 +68,7 @@
 
 ---
 
-## [Clase 13 - Node.js](./Clase-13-Node.js/README.md)
+## [Clase 13 - Node.js]
 - Mongoose y MongoDB
 - Modelos y esquemas
 - Conexión con base de datos
@@ -67,7 +76,7 @@
 
 ---
 
-## [Clase 14 - Node.js](./Clase-14-Node.js/README.md)
+## [Clase 14 - Node.js]
 - Express.js y Handlebars
 - Motor de vistas
 - Renderizado dinámico
@@ -76,7 +85,7 @@
 
 ---
 
-## [Clase 15 - Node.js](./Clase-15-Node.js/README.md)
+## [Clase 15 - Node.js]
 - Modularización profesional
 - Routers y middlewares avanzados
 - Listas y objetos en vistas
