@@ -89,8 +89,7 @@ console.log(Math.round(10.6))
 let result = 0.1 + 0.2;
 result = result.toFixed(1); 
 console.log(result);
-console.log( Number(result) ); 
-
+console.log( Number(result) );
 
 
 
