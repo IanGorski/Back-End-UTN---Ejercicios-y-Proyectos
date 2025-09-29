@@ -1,0 +1,20 @@
+<h1>¡Bienvenido a Home!</h1>
+<h2>Usuarios:</h2>
+<ul>
+    {{#each users}}
+        <li>{{this}}</li>
+    {{/each}}
+</ul>
+
+{{#if is_admin}}
+    <h3>Usted es administrador</h3>
+{{else}}
+    <h3>Usted no es administrador</h3>
+{{/if}}
+
+<h2>Espacios de trabajo:</h2>
+<ul>
+    {{#each workspaces}}
+        <li><strong>{{name}}</strong>: {{description}}</li>
+    {{/each}}
+</ul>
