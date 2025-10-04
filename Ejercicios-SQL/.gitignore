@@ -1,0 +1,318 @@
+# ============================================
+# .gitignore para Portfolio SQL/PostgreSQL
+# PostgreSQL Business Analytics Suite
+# ============================================
+
+# ============================================
+# ARCHIVOS DE PRÁCTICA 
+# ============================================
+
+# Ejercicios básicos/intermedios
+queries_sql_complejos.sql
+
+# ============================================
+# ARCHIVOS DE TRABAJO INTERNO
+# ============================================
+
+# Archivos de revisión/corrección
+RESUMEN_PROYECTO.md
+
+# Archivos de backend
+BACKEND_NODEJS.md
+BACKEND_PYTHON.md
+
+# Scripts de reorganización
+REORGANIZAR_PROYECTO.ps1
+
+# ============================================
+# EDITORES Y IDEs
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+.vscode-test/
+
+# JetBrains (DataGrip, IntelliJ, PyCharm)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.sublime-*
+
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+.*.sw[a-z]
+
+# Emacs
+*~
+\#*\#
+.\#*
+.emacs.desktop
+.emacs.desktop.lock
+
+# Atom
+.atom/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ============================================
+# SISTEMAS OPERATIVOS
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# POSTGRESQL Y BASES DE DATOS
+# ============================================
+
+# Archivos de log
+*.log
+postgresql-*.log
+pg_log/
+logs/
+
+# Archivos de backup de SQL
+*.sql~
+*.sql.bak
+*.sql.old
+*.bak
+
+# Archivos de configuración con credenciales
+*.conf.local
+.pgpass
+.psqlrc
+pg_service.conf
+
+# Dumps y backups grandes
+*.dump
+*.backup
+*.sql.gz
+*.sql.zip
+*.tar.gz
+backups/
+backup/
+
+# Directorios de datos de PostgreSQL
+data/
+pg_data/
+postgres_data/
+pgdata/
+
+# Archivos temporales de PostgreSQL
+*.pid
+postmaster.pid
+postmaster.opts
+pg_hba.conf.bak
+postgresql.auto.conf
+recovery.conf.bak
+
+# Archivos de pgAdmin
+pgadmin4.db
+sessions/
+storage/
+*.db
+
+# ============================================
+# DOCKER
+# ============================================
+
+# Archivos de Docker (mantener docker-compose.yml)
+docker-compose.override.yml
+.dockerignore
+
+# Volúmenes de Docker
+volumes/
+.docker/
+docker-data/
+
+# ============================================
+# ENTORNO Y CREDENCIALES SENSIBLES
+# ============================================
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+.envrc
+
+# Archivos de configuración sensibles
+config.ini
+config.local.yml
+secrets.yml
+credentials.json
+passwords.txt
+db_config.json
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+package-lock.json
+yarn.lock
+.pnp.*
+.yarn/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales de Python
+venv/
+env/
+ENV/
+.venv
+virtualenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ============================================
+# ARCHIVOS TEMPORALES GENERALES
+# ============================================
+
+# Backups de editores
+*.bak
+*.tmp
+*.temp
+~$*
+*.orig
+
+# Archivos de caché
+.cache/
+*.cache
+.sass-cache/
+
+# ============================================
+# RESULTADOS Y EXPORTS
+# ============================================
+
+# Archivos exportados (a menos que sean screenshots)
+results/
+output/
+exports/
+*.csv
+*.xlsx
+*.xls
+*.tsv
+
+# Excepciones: SÍ incluir screenshots
+!docs/screenshots/*.png
+!docs/screenshots/*.jpg
+!docs/screenshots/*.jpeg
+
+# ============================================
+# ARCHIVOS GRANDES
+# ============================================
+
+# GitHub tiene límite de 100MB por archivo
+*.zip
+*.rar
+*.7z
+large_dataset.sql
+huge_data.sql
+
+# ============================================
+# TESTS Y COVERAGE
+# ============================================
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ============================================
+# GITHUB SPECIFIC
+# ============================================
+
+# GitHub Pages
+_site/
+.jekyll-cache/
+
+# ============================================
+# MISC
+# ============================================
+
+# Thumbnails
+*.thumbnail
+
+# Files that might appear in the root
+*.dmg
+*.iso
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+
+# Archives (a menos que sean releases)
+*.jar
+*.war
+*.ear
